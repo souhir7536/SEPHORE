@@ -1,0 +1,162 @@
+#main {
+max-with:960px;
+margin:auto;
+}
+#menu2 {
+float:left;
+height : 550px;
+width:20%;
+background-color:#f9f9f9;
+}
+#contenu2 {
+height : 550px;
+width:80%;
+margin-left:200px;
+background-color:#FFFFFF;
+}
+
+ul {
+  
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+li {
+    color: #f7d9b3;
+    margin-left :  5%;
+    display: #f9f9f9;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #f7d9b3;
+}
+
+li:hover {
+    background: #fe5c7;
+    cursor: pointer;
+}
+
+ul li ul {
+
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+  font-size: 12px;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+
+
+.colon1{
+    float:left;
+	height : 500px !important;
+	width : 50%;
+    background-color:#ffe5c7;
+    text-align:center;
+    font-size:0.8em;
+    clear:right;
+}
+.colon2{
+    float:left;
+	height : 500px;
+	width : 40%;
+    background-color:#ffe5c7;
+    text-align:center;
+    font-size:0.8em;
+    clear:right;
+}
+.clon3{
+    float:left;
+	height : 500px !important;
+	width : 40%;
+    background-color:#ffe5c7;
+    text-align:center;
+    font-size:0.8em;
+    clear:right;
+
+}
+
+.clon4{
+    float:left;
+	height : 500px;
+	width : 40%;
+    text-align:center;
+    font-size:0.8em;
+    clear:right;
+}
+
+.soin1{
+    background-image: url("img/soin1.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+     vertical-align: middle;
+}
+
+.soin2{
+    background-image: url("img/soin2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+     vertical-align: middle;
+}
+
+.soin3{
+    background-image: url("img/soin3.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+     vertical-align: middle;
+}
+.soin4{
+    background-image: url("img/soin4.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+     vertical-align: middle;
+}
+
+.soin5{
+    background-image: url("img/soin5.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+     vertical-align: middle;
+}
+.soin6{
+    background-image: url("img/soin6.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+     vertical-align: middle;
+}
+
+.cadre{
+	background-color : #f7d9b3;
+	border-color : #f7d9b3;
+	margin-top:110%;
+	color: #FFFFFF;
+	
+}

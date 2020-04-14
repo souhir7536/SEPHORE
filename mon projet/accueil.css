@@ -1,0 +1,548 @@
+#entete, #menu, #contenu {
+padding:1px 0;
+}
+
+#entete {
+
+border-color:#ffe5c7;
+text-align:center;
+}
+#main {
+max-with:960px;
+margin:auto;
+}
+#menu  {
+float:left;
+height : 550px;
+width:30%;
+background-color:#FFFFFF;
+}
+#contenu {
+height : 550px;
+width:70%;
+margin-left:400px;
+background-color:#FFFFFF;
+}
+#footer{
+
+text-align:center;
+clear:both;
+}
+
+#button{
+	background-color : #ffe5c7;
+	border-color: transparent;
+	color: #ffffff;
+}
+#navbar{
+	background-color : #ffe5c7:
+}
+
+#text{
+	float:left;
+	height : 500px !important;
+	width : 50%;
+    background-color:#ffe5c7;
+    border: 10px solid #ffffff;
+    padding: 50px 50px 50px ;
+    text-align:center;
+    font-size:0.8em;
+    clear:right;
+}
+
+#carouselCaptions1{
+
+height : 500px !important;
+	width : 50%;
+	margin-left:500px;
+background-color:#ffffff;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    text-align:center;
+    font-size:0.8em;
+    clear:right;
+}
+#carouselCaptions2{
+float:left;
+height : 500px !important;
+	width : 100%;
+
+background-color:#FFFFFF;
+    border: 3px solid #ffffff;
+    padding: 10px;
+    text-align:center;
+    font-size:0.8em;
+    clear:right;
+}
+
+#image{
+	width : 50%;
+	height : 500px !important;
+
+}
+
+.carousel {
+    position: relative;
+	width: 640px;
+	height: 310px;
+    padding: 15px;
+     margin: 0 auto 2em;
+     margin-right: 50px;
+}
+
+.style{
+
+    position: absolute;
+    top: 130px;
+	width: 450px;
+	
+	
+}
+
+.sou{
+     margin-right: 150%;
+	width: 400px;
+    position: absolute;
+    top: 230px;
+    
+
+    }
+    #titre{
+    
+        animation-duration: 5s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        background-color: transparent;
+        color: blanchedalmond;
+        
+        
+          }
+            @keyframes slidein {
+			  from {
+				margin-left: 100%;
+				width: 100%; 
+			  }
+
+			  to {
+				margin-left: 0%;
+				width: 100%;
+			  }
+          }
+
+          /* nouveautes imqg nouv  */
+
+          
+#header{
+ width: 100%; 
+   
+    height: 70%x;
+    background-image: url("https://iyadhkhalfalhttps://www.sephora.fr/p/cream-lip-stain-mat---rouge-a-levres-mat--P407019.htmllah.github.io/checkpointsGMC/res/webdev3.png");
+   width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    color: white;
+    font-size: 80px;
+    margin:30%;
+    
+}
+
+.images{
+    display:inline-block;
+    margin-top:100px;
+    widows: 300%;
+    /* width: 27%; */
+ 
+ 
+}
+
+h6{
+    color: #ffffff;
+    font-size: 30px;
+    margin:30px;
+     width: 30%;
+    margin-left: auto 0 auto 0;
+    margin-right:30;
+    width: 6em ;
+    height:30px ;
+}
+ .textarea.form-control {
+   
+    display: block;
+    width: 30%;
+    margin: 30px;
+    font-size: 15px;
+ padding: 30px 50px;
+
+}
+
+
+.center{
+    padding: 15px 50px;
+    vertical-align: middle;
+}
+
+
+#titre h1{
+    color: white;
+    font-size: 80px;
+    margin:30%;
+}
+
+
+          
+.img1{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwdabe99d8/images/hi-res/SKU/SKU_1247/505707_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+     vertical-align: middle;
+}
+
+.img2{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw71b10d39/images/hi-res/SKU/SKU_1210/505695_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+
+}
+
+.img3{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw890e991d/images/hi-res/SKU/SKU_5/505621_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+    
+}
+.img4{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw18113151/images/hi-res/SKU/SKU_5/363045_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+    
+}
+
+.img5{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw7390d219/images/hi-res/SKU/SKU_388/458536_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+    
+}
+.img6{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw0d687d7f/images/hi-res/SKU/SKU_5/407404_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+    
+}
+.img7{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw5e3c2506/images/hi-res/SKU/SKU_5/505447_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+}
+.img8{
+    background-image:url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw0d547184/images/hi-res/SKU/SKU_1/206220_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+}
+.img9{
+    background-image: url("https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw98312f10/images/hi-res/SKU/SKU_1116/496461_swatch.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 100px;
+}
+
+.Nude{
+    margin-right: 150%;
+	width: 200px;
+    position: absolute;
+    top: 230px;
+}
+.size1{
+    margin-left: 390px;
+   
+}
+.dou{
+    margin-left: 790px;
+    position: absolute;
+    top: 0%;
+	
+
+
+}
+
+
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+    
+    
+  } 
+.colon1{
+
+    
+    animation: swing ease-in-out 1s infinite alternate;
+        transform-origin: center -20px;
+        float:left;
+
+        background-color: rgb(66, 12, 44);
+    }
+    .colon1 {
+        border: 5px solid #df78bc;
+        display: block;
+    }
+    .colon1:after{
+        content: '';
+        position: absolute;  
+        width: 20px; height: 20px;  
+        border: 1px solid rgb(211, 109, 162);
+        top: -10px; left: 50%;
+        z-index: 0;
+        border-bottom: none;
+        border-right: none;
+        transform: rotate(45deg);
+    }
+    /* nail */
+    .colon1:before{
+        content: '';
+        position: absolute;
+        width: 5px; height: 5px;
+        top: -14px;left: 54%;
+        z-index: 5;
+        border-radius: 50% 50%;
+        background: rgb(226, 154, 204);
+    }
+     
+    @keyframes swing {
+        0% { transform: rotate(3deg); }
+        100% { transform: rotate(-3deg); }
+    }
+    .colon2{
+
+    
+        animation: swing ease-in-out 1s infinite alternate;
+            transform-origin: center -20px;
+            float:left;
+            background-color: rgb(66, 12, 44);
+        }
+        .colon2 {
+            border: 5px solid #e0a4cc;
+            display: block;
+        }
+        .colon2:after{
+            content: '';
+            position: absolute;  
+            width: 20px; height: 20px;  
+            border: 1px solid rgb(224, 146, 194);
+            top: -10px; left: 50%;
+            z-index: 0;
+            border-bottom: none;
+            border-right: none;
+            transform: rotate(45deg);
+        }
+        /* nail */
+        .colon2:before{
+            content: '';
+            position: absolute;
+            width: 5px; height: 5px;
+            top: -14px;left: 54%;
+            z-index: 5;
+            border-radius: 50% 50%;
+            background: rgb(226, 156, 203);
+        }
+         
+        @keyframes swing {
+            0% { transform: rotate(3deg); }
+            100% { transform: rotate(-3deg); }
+        }
+        .clon3{
+
+    
+            animation: swing ease-in-out 1s infinite alternate;
+                transform-origin: center -20px;
+                float:left;
+                background-color: rgb(66, 12, 44);
+            }
+            .clon3 {
+                border: 5px solid #581544;
+                display: block;
+            }
+            .clon3:after{
+                content: '';
+                position: absolute;  
+                width: 20px; height: 20px;  
+                border: 1px solid rgb(226, 147, 178);
+                top: -10px; left: 50%;
+                z-index: 0;
+                border-bottom: none;
+                border-right: none;
+                transform: rotate(45deg);
+            }
+            /* nail */
+            .clon3:before{
+                content: '';
+                position: absolute;
+                width: 5px; height: 5px;
+                top: -14px;left: 54%;
+                z-index: 5;
+                border-radius: 50% 50%;
+                background: rgb(63, 6, 39);
+            }
+             
+            @keyframes swing {
+                0% { transform: rotate(3deg); }
+                100% { transform: rotate(-3deg); }
+            }
+            .clon4{
+
+    
+                animation: swing ease-in-out 1s infinite alternate;
+                    transform-origin: center -20px;
+                    float:left;
+                    background-color: rgb(66, 12, 44);
+                }
+                .clon4 {
+                    border: 5px solid #e697a1;
+                    display: block;
+                }
+                .clon4:after{
+                    content: '';
+                    position: absolute;  
+                    width: 20px; height: 20px;  
+                    border: 1px solid rgb(230, 153, 169);
+                    top: -10px; left: 50%;
+                    z-index: 0;
+                    border-bottom: none;
+                    border-right: none;
+                    transform: rotate(45deg);
+                }
+                /* nail */
+                .clon4:before{
+                    content: '';
+                    position: absolute;
+                    width: 5px; height: 5px;
+                    top: -14px;left: 54%;
+                    z-index: 5;
+                    border-radius: 50% 50%;
+                    background: rgb(77, 9, 60);
+                }
+                 
+                @keyframes swing {
+                    0% { transform: rotate(3deg); }
+                    100% { transform: rotate(-3deg); }
+                }
+                .sephore-form{
+    
+                    margin: 15px 500px ;
+                }
+                
+
+
+
+
+.ctns{
+    width: 150px;
+    height: 29px;
+    margin-top: 10px;
+    border-radius: 30px ;
+    background-color:#ffe5c7 ;
+    border-color: #d33da1;
+    color: rgb(70, 17, 50);
+}
+
+.cadre1{
+	background-color : transparent;
+	border-color : #ffe5c7;
+	margin-top:110%;
+	color: #ffe5c7;
+	
+}
+.nav-item {
+  transition-duration: 0.4s;
+}
+
+.nav-item:hover {
+  background-color: #ffe5c7; 
+  color: white;
+}
+
+table{
+	margin-left:35%;
+	text-align:left;
+}
+
+.img {
+	border: 10px solid transparent;
+}
+
+.btn {
+	background-color : transparent;
+	border-color : transparent;
+	color :#ffe5c7;
+}
+
